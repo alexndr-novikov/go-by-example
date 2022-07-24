@@ -3,6 +3,7 @@ package variables
 import "fmt"
 
 func Variables() {
+	fmt.Println("Variables package output:")
 	var stringVar = "initial"
 	fmt.Println(stringVar)
 
@@ -20,5 +21,6 @@ func Variables() {
 
 	initVarViaValueNoVar := "sugar"
 	fmt.Println(initVarViaValueNoVar)
+	fmt.Println("")
 
 }
