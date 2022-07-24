@@ -2,6 +2,7 @@ package main
 
 import (
 	"go-by-example/internal/constant"
+	"go-by-example/internal/for"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
@@ -12,5 +13,5 @@ func main() {
 	values.Values()
 	variables.Variables()
 	constant.Const()
-
+	_for.For()
 }
