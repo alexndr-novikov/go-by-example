@@ -1,10 +1,10 @@
 package main
 
 import (
-	"go-by-example/internal/conditions"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
 	"go-by-example/internal/hello"
+	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
 )
@@ -15,5 +15,5 @@ func main() {
 	variables.Variables()
 	constant.Const()
 	_for.For()
-	conditions.Conditions()
+	_switch.Switch()
 }
