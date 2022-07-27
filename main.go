@@ -1,6 +1,7 @@
 package main
 
 import (
+	"go-by-example/internal/array"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
 	"go-by-example/internal/hello"
@@ -16,4 +17,5 @@ func main() {
 	constant.Const()
 	_for.For()
 	_switch.Switch()
+	array.Array()
 }
