@@ -3,6 +3,7 @@ package conditions
 import "fmt"
 
 func Conditions() {
+	fmt.Println("Conditions package output:")
 	if 8%2 == 0 {
 		fmt.Println("8 is even, if-else condition example")
 	} else {
@@ -20,4 +21,5 @@ func Conditions() {
 	} else {
 		fmt.Println(num, "has multiple digits")
 	}
+	fmt.Println("")
 }
