@@ -19,6 +19,7 @@ func Slices() {
 	fmt.Println("Appended:", s)
 
 	c := make([]string, len(s))
+	arr := [4]int{1, 2, 3, 4}
 	copy(c, s)
 	s = append(s, "seven")
 	fmt.Println("Copy", c)
@@ -27,6 +28,7 @@ func Slices() {
 	fmt.Println("slice 2:5", s[2:5])
 	fmt.Println("slice :2", s[:2])
 	fmt.Println("slice 2:", s[2:])
+	fmt.Println("slice :", arr[:])
 
 	shortSyntaxSlice := []int{1, 2, 3}
 	fmt.Println(shortSyntaxSlice)
