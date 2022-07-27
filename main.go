@@ -5,6 +5,7 @@ import (
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
 	"go-by-example/internal/hello"
+	"go-by-example/internal/maps"
 	"go-by-example/internal/slices"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
@@ -20,4 +21,5 @@ func main() {
 	_switch.Switch()
 	array.Array()
 	slices.Slices()
+	maps.Maps()
 }
