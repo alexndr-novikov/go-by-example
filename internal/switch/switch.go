@@ -6,6 +6,7 @@ import (
 )
 
 func Switch() {
+	fmt.Println("Switch package output:")
 	i := 1
 	fmt.Println("write", i, "as")
 	switch i {
@@ -44,4 +45,5 @@ func Switch() {
 	whatAmI(true)
 	whatAmI(nil)
 	whatAmI(1)
+	fmt.Println("")
 }
