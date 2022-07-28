@@ -4,6 +4,7 @@ import (
 	"go-by-example/internal/array"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
+	_func "go-by-example/internal/func"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/range"
@@ -24,4 +25,5 @@ func main() {
 	slices.Slices()
 	maps.Maps()
 	_range.Range()
+	_func.Func()
 }
