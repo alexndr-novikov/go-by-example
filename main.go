@@ -5,6 +5,7 @@ import (
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
 	_func "go-by-example/internal/func"
+	multReturn "go-by-example/internal/func-multiple-return"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/range"
@@ -26,4 +27,5 @@ func main() {
 	maps.Maps()
 	_range.Range()
 	_func.Func()
+	multReturn.FuncMultipleReturnValues()
 }
