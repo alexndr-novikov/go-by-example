@@ -2,6 +2,7 @@ package main
 
 import (
 	"go-by-example/internal/array"
+	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/for"
 	_func "go-by-example/internal/func"
@@ -13,6 +14,7 @@ import (
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
+	"go-by-example/internal/variadic"
 )
 
 func main() {
@@ -28,4 +30,6 @@ func main() {
 	_range.Range()
 	_func.Func()
 	multReturn.FuncMultipleReturnValues()
+	variadic.Variadic()
+	closures.Closures()
 }
