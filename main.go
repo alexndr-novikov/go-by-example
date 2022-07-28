@@ -6,6 +6,7 @@ import (
 	"go-by-example/internal/for"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/maps"
+	"go-by-example/internal/range"
 	"go-by-example/internal/slices"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
@@ -22,4 +23,5 @@ func main() {
 	array.Array()
 	slices.Slices()
 	maps.Maps()
+	_range.Range()
 }
