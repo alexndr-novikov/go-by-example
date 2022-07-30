@@ -10,6 +10,7 @@ import (
 	"go-by-example/internal/hello"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/range"
+	"go-by-example/internal/recursion"
 	"go-by-example/internal/slices"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
@@ -32,4 +33,5 @@ func main() {
 	multReturn.FuncMultipleReturnValues()
 	variadic.Variadic()
 	closures.Closures()
+	recursion.Recursion()
 }
