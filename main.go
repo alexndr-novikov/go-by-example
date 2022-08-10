@@ -12,6 +12,7 @@ import (
 	"go-by-example/internal/pointers"
 	"go-by-example/internal/range"
 	"go-by-example/internal/recursion"
+	"go-by-example/internal/runes"
 	"go-by-example/internal/slices"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
@@ -36,4 +37,5 @@ func main() {
 	closures.Closures()
 	recursion.Recursion()
 	pointers.Pointers()
+	runes.Runes()
 }
