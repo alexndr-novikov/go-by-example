@@ -14,6 +14,7 @@ import (
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	"go-by-example/internal/slices"
+	"go-by-example/internal/structs"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
@@ -38,4 +39,5 @@ func main() {
 	recursion.Recursion()
 	pointers.Pointers()
 	runes.Runes()
+	structs.Structs()
 }
