@@ -9,6 +9,7 @@ import (
 	multReturn "go-by-example/internal/func-multiple-return"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/maps"
+	"go-by-example/internal/methods"
 	"go-by-example/internal/pointers"
 	"go-by-example/internal/range"
 	"go-by-example/internal/recursion"
@@ -40,4 +41,5 @@ func main() {
 	pointers.Pointers()
 	runes.Runes()
 	structs.Structs()
+	methods.Methods()
 }
