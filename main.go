@@ -16,6 +16,7 @@ import (
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	"go-by-example/internal/slices"
+	struct_embedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	"go-by-example/internal/switch"
 	"go-by-example/internal/values"
@@ -44,4 +45,5 @@ func main() {
 	structs.Structs()
 	methods.Methods()
 	interfaces.Interfaces()
+	struct_embedding.StructEmbedding()
 }
