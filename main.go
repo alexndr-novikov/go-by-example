@@ -8,6 +8,7 @@ import (
 	_func "go-by-example/internal/func"
 	multReturn "go-by-example/internal/func-multiple-return"
 	"go-by-example/internal/hello"
+	"go-by-example/internal/interfaces"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/methods"
 	"go-by-example/internal/pointers"
@@ -42,4 +43,5 @@ func main() {
 	runes.Runes()
 	structs.Structs()
 	methods.Methods()
+	interfaces.Interfaces()
 }
