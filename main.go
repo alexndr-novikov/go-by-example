@@ -9,6 +9,7 @@ import (
 	_func "go-by-example/internal/func"
 	multReturn "go-by-example/internal/func-multiple-return"
 	"go-by-example/internal/generics"
+	"go-by-example/internal/goroutines"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/interfaces"
 	"go-by-example/internal/maps"
@@ -50,4 +51,5 @@ func main() {
 	struct_embedding.StructEmbedding()
 	generics.Generics()
 	errors.Errors()
+	goroutines.Goroutines()
 }
