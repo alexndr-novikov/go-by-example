@@ -4,6 +4,7 @@ import (
 	"go-by-example/internal/array"
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
+	"go-by-example/internal/errors"
 	"go-by-example/internal/for"
 	_func "go-by-example/internal/func"
 	multReturn "go-by-example/internal/func-multiple-return"
@@ -48,4 +49,5 @@ func main() {
 	interfaces.Interfaces()
 	struct_embedding.StructEmbedding()
 	generics.Generics()
+	errors.Errors()
 }
