@@ -2,6 +2,7 @@ package main
 
 import (
 	"go-by-example/internal/array"
+	channel_buffering "go-by-example/internal/channel-buffering"
 	"go-by-example/internal/channels"
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
@@ -54,4 +55,5 @@ func main() {
 	errors.Errors()
 	goroutines.Goroutines()
 	channels.Channels()
+	channel_buffering.ChannelBuffering()
 }
