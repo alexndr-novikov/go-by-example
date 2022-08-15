@@ -2,6 +2,7 @@ package main
 
 import (
 	"go-by-example/internal/array"
+	"go-by-example/internal/channels"
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/errors"
@@ -52,4 +53,5 @@ func main() {
 	generics.Generics()
 	errors.Errors()
 	goroutines.Goroutines()
+	channels.Channels()
 }
