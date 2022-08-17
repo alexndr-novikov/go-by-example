@@ -3,6 +3,7 @@ package main
 import (
 	"go-by-example/internal/array"
 	channel_buffering "go-by-example/internal/channel-buffering"
+	channel_directions "go-by-example/internal/channel-directions"
 	channel_sync "go-by-example/internal/channel-sync"
 	"go-by-example/internal/channels"
 	"go-by-example/internal/closures"
@@ -58,4 +59,5 @@ func main() {
 	channels.Channels()
 	channel_buffering.ChannelBuffering()
 	channel_sync.ChannelSync()
+	channel_directions.ChannelDirections()
 }

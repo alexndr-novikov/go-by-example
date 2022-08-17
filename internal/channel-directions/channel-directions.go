@@ -1,0 +1,22 @@
+package channel_directions
+
+import "fmt"
+
+func ping(pings chan<- string, msg string) {
+	pings <- msg
+}
+
+func pong(pings <-chan string, pongs chan<- string) {
+	msg := <-pings
+	pongs <- msg
+}
+
+func ChannelDirections() {
+	fmt.Println("Channel directions package output:")
+	pings := make(chan string, 1)
+	pongs := make(chan string, 1)
+	ping(pings, "passed message")
+	pong(pings, pongs)
+	fmt.Println(<-pongs)
+	fmt.Println("")
+}
