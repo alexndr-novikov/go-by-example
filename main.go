@@ -22,6 +22,7 @@ import (
 	"go-by-example/internal/range"
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
+	select_examples "go-by-example/internal/select"
 	"go-by-example/internal/slices"
 	struct_embedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
@@ -60,4 +61,5 @@ func main() {
 	channel_buffering.ChannelBuffering()
 	channel_sync.ChannelSync()
 	channel_directions.ChannelDirections()
+	select_examples.Select()
 }
