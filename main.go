@@ -18,6 +18,7 @@ import (
 	"go-by-example/internal/interfaces"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/methods"
+	non_blocking_channels "go-by-example/internal/non-blocking-channels"
 	"go-by-example/internal/pointers"
 	"go-by-example/internal/range"
 	"go-by-example/internal/recursion"
@@ -64,4 +65,5 @@ func main() {
 	channel_directions.ChannelDirections()
 	select_examples.Select()
 	timeouts.Timeouts()
+	non_blocking_channels.NonBlockingChannels()
 }
