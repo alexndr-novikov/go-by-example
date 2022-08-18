@@ -27,6 +27,7 @@ import (
 	struct_embedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	"go-by-example/internal/switch"
+	"go-by-example/internal/timeouts"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
 	"go-by-example/internal/variadic"
@@ -62,4 +63,5 @@ func main() {
 	channel_sync.ChannelSync()
 	channel_directions.ChannelDirections()
 	select_examples.Select()
+	timeouts.Timeouts()
 }
