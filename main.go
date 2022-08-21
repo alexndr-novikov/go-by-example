@@ -6,10 +6,11 @@ import (
 	channel_directions "go-by-example/internal/channel-directions"
 	channel_sync "go-by-example/internal/channel-sync"
 	"go-by-example/internal/channels"
+	closing_channels "go-by-example/internal/closing-channels"
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
 	"go-by-example/internal/errors"
-	"go-by-example/internal/for"
+	_for "go-by-example/internal/for"
 	_func "go-by-example/internal/func"
 	multReturn "go-by-example/internal/func-multiple-return"
 	"go-by-example/internal/generics"
@@ -20,14 +21,14 @@ import (
 	"go-by-example/internal/methods"
 	non_blocking_channels "go-by-example/internal/non-blocking-channels"
 	"go-by-example/internal/pointers"
-	"go-by-example/internal/range"
+	_range "go-by-example/internal/range"
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	select_examples "go-by-example/internal/select"
 	"go-by-example/internal/slices"
 	struct_embedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
-	"go-by-example/internal/switch"
+	_switch "go-by-example/internal/switch"
 	"go-by-example/internal/timeouts"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
@@ -66,4 +67,5 @@ func main() {
 	select_examples.Select()
 	timeouts.Timeouts()
 	non_blocking_channels.NonBlockingChannels()
+	closing_channels.ClosingChannels()
 }
