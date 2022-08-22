@@ -30,6 +30,7 @@ import (
 	struct_embedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
+	"go-by-example/internal/tickers"
 	"go-by-example/internal/timeouts"
 	"go-by-example/internal/timers"
 	"go-by-example/internal/values"
@@ -38,6 +39,7 @@ import (
 )
 
 func main() {
+	tickers.Tickers()
 	timers.Timers()
 	channel_range.ChannelRange()
 	hello.Hello()
