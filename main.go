@@ -4,6 +4,7 @@ import (
 	"go-by-example/internal/array"
 	channel_buffering "go-by-example/internal/channel-buffering"
 	channel_directions "go-by-example/internal/channel-directions"
+	channel_range "go-by-example/internal/channel-range"
 	channel_sync "go-by-example/internal/channel-sync"
 	"go-by-example/internal/channels"
 	closing_channels "go-by-example/internal/closing-channels"
@@ -36,6 +37,7 @@ import (
 )
 
 func main() {
+	channel_range.ChannelRange()
 	hello.Hello()
 	values.Values()
 	variables.Variables()
