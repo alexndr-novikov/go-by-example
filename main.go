@@ -31,12 +31,14 @@ import (
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
 	"go-by-example/internal/timeouts"
+	"go-by-example/internal/timers"
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
 	"go-by-example/internal/variadic"
 )
 
 func main() {
+	timers.Timers()
 	channel_range.ChannelRange()
 	hello.Hello()
 	values.Values()
