@@ -2,7 +2,7 @@ package closures
 
 import "fmt"
 
-func Closures() {
+func RunSample() {
 	fmt.Println("Closures package output:")
 	seq := initSequence()
 	fmt.Println(seq())

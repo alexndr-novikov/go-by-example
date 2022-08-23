@@ -13,7 +13,7 @@ func newUser(email string) *user {
 	return &u
 }
 
-func Structs() {
+func RunSample() {
 	fmt.Println("Structs package output:")
 	fmt.Println(user{"test@example.com", 2})
 	fmt.Println(user{email: "test@example.com", id: 3})

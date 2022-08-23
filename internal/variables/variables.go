@@ -2,7 +2,7 @@ package variables
 
 import "fmt"
 
-func Variables() {
+func RunSample() {
 	fmt.Println("Variables package output:")
 	var stringVar = "initial"
 	fmt.Println(stringVar)

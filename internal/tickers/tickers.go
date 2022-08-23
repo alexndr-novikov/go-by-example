@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Tickers() {
+func RunSample() {
 	fmt.Println("tickers package output:")
 	ticker := time.NewTicker(time.Millisecond * 500)
 	done := make(chan bool)

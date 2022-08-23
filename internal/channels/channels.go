@@ -2,7 +2,7 @@ package channels
 
 import "fmt"
 
-func Channels() {
+func RunSample() {
 	fmt.Println("Channels package output:")
 	pipe := make(chan string)
 	go func() { pipe <- "message1" }()

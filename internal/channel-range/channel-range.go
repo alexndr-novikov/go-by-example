@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func ChannelRange() {
+func RunSample() {
 	fmt.Println("Channel range package output:")
 	ch := make(chan string)
 

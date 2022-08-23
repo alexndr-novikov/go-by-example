@@ -2,7 +2,7 @@ package non_blocking_channels
 
 import "fmt"
 
-func NonBlockingChannels() {
+func RunSample() {
 	fmt.Println("non-blocking-channels package output:")
 	messages := make(chan string)
 	signals := make(chan bool)

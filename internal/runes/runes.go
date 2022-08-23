@@ -5,7 +5,7 @@ import (
 	"unicode/utf8"
 )
 
-func Runes() {
+func RunSample() {
 	fmt.Println("Runes package output:")
 	const greeting = "вітання"
 	fmt.Println(greeting, "len:", len(greeting))

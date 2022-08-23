@@ -2,7 +2,7 @@ package array
 
 import "fmt"
 
-func Array() {
+func RunSample() {
 	fmt.Println("Array package output:")
 
 	fmt.Println("Zero value array example:")

@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Select() {
+func RunSample() {
 	fmt.Println("Select package output:")
 	chan1 := make(chan string, 1)
 	chan2 := make(chan string, 1)

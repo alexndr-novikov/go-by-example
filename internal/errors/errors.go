@@ -28,7 +28,7 @@ func customErrorTester(i int) (int, error) {
 	return i + 3, nil
 }
 
-func Errors() {
+func RunSample() {
 	fmt.Println("Errors package output:")
 	fmt.Println(errorTester(1))
 	fmt.Println(errorTester(42))

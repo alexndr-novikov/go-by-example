@@ -20,7 +20,7 @@ type container struct {
 	name string
 }
 
-func StructEmbedding() {
+func RunSample() {
 	fmt.Println("Struct embedding package output:")
 	c := container{
 		base:  base{1},

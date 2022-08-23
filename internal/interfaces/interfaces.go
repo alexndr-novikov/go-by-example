@@ -39,7 +39,7 @@ func measure(g geom) {
 	fmt.Println("Perim:", g.perim())
 }
 
-func Interfaces() {
+func RunSample() {
 	fmt.Println("Interfaces package output:")
 	rec := rect{3, 4}
 	cir := circle{3}

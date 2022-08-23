@@ -2,7 +2,7 @@ package recursion
 
 import "fmt"
 
-func Recursion() {
+func RunSample() {
 	fmt.Println("recursion package output:")
 	fmt.Println(factorial(7))
 

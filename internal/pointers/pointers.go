@@ -2,7 +2,7 @@ package pointers
 
 import "fmt"
 
-func Pointers() {
+func RunSample() {
 	fmt.Println("Pointers package output:")
 	val := 1
 	fmt.Println("initial:", val)

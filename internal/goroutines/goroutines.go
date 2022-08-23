@@ -11,7 +11,7 @@ func counter(s string) {
 	}
 }
 
-func Goroutines() {
+func RunSample() {
 	fmt.Println("Goroutines package output:")
 	counter("direct")
 	go counter("goroutine")

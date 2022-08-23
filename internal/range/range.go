@@ -2,7 +2,7 @@ package _range
 
 import "fmt"
 
-func Range() {
+func RunSample() {
 	fmt.Println("Range package output:")
 	exampleArray := [5]int{1, 2, 3, 4, 5}
 

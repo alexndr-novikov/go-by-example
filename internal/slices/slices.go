@@ -2,7 +2,7 @@ package slices
 
 import "fmt"
 
-func Slices() {
+func RunSample() {
 	fmt.Println("Slices package output:")
 
 	fmt.Println("make slice length 3:")

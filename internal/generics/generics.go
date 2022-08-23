@@ -37,7 +37,7 @@ func (lst *List[T]) GetAll() []T {
 	return elems
 }
 
-func Generics() {
+func RunSample() {
 	fmt.Println("Generics package output:")
 	var m = map[int]string{1: "One", 2: "Two", 3: "Three"}
 	fmt.Println(MapKeys(m))

@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Timers() {
+func RunSample() {
 	fmt.Println("Timers package output:")
 	timer1 := time.NewTimer(2 * time.Second)
 	<-timer1.C

@@ -8,7 +8,7 @@ import (
 
 const const_string string = "constant string"
 
-func Const() {
+func RunSample() {
 	fmt.Println("Constant package output:")
 	fmt.Println("Const string outside function:", const_string)
 	const infunc_number = 500000000

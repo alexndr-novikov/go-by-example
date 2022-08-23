@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Timeouts() {
+func RunSample() {
 	fmt.Println("Timeouts package output:")
 	chan1 := make(chan string, 1)
 	go func() {

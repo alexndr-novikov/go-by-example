@@ -2,7 +2,7 @@ package variadic
 
 import "fmt"
 
-func Variadic() {
+func RunSample() {
 	fmt.Println("Variadic package output:")
 
 	sum(1, 10, 100, 1000)

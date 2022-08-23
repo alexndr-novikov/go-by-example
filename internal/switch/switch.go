@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Switch() {
+func RunSample() {
 	fmt.Println("Switch package output:")
 	i := 1
 	fmt.Println("write", i, "as")

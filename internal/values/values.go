@@ -2,7 +2,7 @@ package values
 
 import "fmt"
 
-func Values() {
+func RunSample() {
 	fmt.Println("Values package output:")
 	fmt.Println("hello" + " go")
 	fmt.Println("1+1=", 1+1)

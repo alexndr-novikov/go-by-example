@@ -12,7 +12,7 @@ func worker(c chan bool) {
 	c <- true
 }
 
-func ChannelSync() {
+func RunSample() {
 	fmt.Println("Channel sync package output:")
 	channel := make(chan bool, 1)
 	go worker(channel)

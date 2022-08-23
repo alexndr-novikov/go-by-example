@@ -2,7 +2,7 @@ package channel_buffering
 
 import "fmt"
 
-func ChannelBuffering() {
+func RunSample() {
 	fmt.Println("Channel buffering package output:")
 	messages := make(chan string, 2)
 	messages <- "msg1"

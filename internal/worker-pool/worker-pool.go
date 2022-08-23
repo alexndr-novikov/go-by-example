@@ -14,7 +14,7 @@ func worker(id int, jobs chan int, results chan int) {
 	}
 }
 
-func WorkerPool() {
+func RunSample() {
 	fmt.Println("Worker pool package output:")
 	startTime := time.Now().Second()
 	numJobs := 10

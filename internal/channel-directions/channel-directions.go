@@ -11,7 +11,7 @@ func pong(pings <-chan string, pongs chan<- string) {
 	pongs <- msg
 }
 
-func ChannelDirections() {
+func RunSample() {
 	fmt.Println("Channel directions package output:")
 	pings := make(chan string, 1)
 	pongs := make(chan string, 1)

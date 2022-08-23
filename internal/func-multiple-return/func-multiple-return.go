@@ -2,7 +2,7 @@ package func_multiple_return
 
 import "fmt"
 
-func FuncMultipleReturnValues() {
+func RunSample() {
 	fmt.Println("FuncMultipleReturnValues package output:")
 
 	a := 1

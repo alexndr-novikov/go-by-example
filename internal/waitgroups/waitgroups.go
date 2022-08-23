@@ -12,7 +12,7 @@ func worker(id int) {
 	fmt.Println("Worker ", id, " finished")
 }
 
-func WaitGroups() {
+func RunSample() {
 	fmt.Println("Wait groups package output:")
 	var group sync.WaitGroup
 	for i := 1; i <= 10; i++ {

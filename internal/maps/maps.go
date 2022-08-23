@@ -2,7 +2,7 @@ package maps
 
 import "fmt"
 
-func Maps() {
+func RunSample() {
 	fmt.Println("Maps package output:")
 	mapVar := make(map[string]int)
 	mapVar["one"] = 1

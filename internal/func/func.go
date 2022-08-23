@@ -2,7 +2,7 @@ package _func
 
 import "fmt"
 
-func Func() {
+func RunSample() {
 	fmt.Println("Func package output:")
 	fmt.Println("plus(1,2):", plus(1, 2))
 	fmt.Println("plusPlus(1,2,3):", plusPlus(1, 2, 3))

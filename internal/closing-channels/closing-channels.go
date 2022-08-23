@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func ClosingChannels() {
+func RunSample() {
 	fmt.Println("Closing channels package output:")
 	jobs := make(chan int, 5)
 	done := make(chan bool)

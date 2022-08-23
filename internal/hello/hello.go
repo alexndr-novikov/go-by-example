@@ -2,8 +2,8 @@ package hello
 
 import "fmt"
 
-func Hello() {
-	fmt.Println("Hello package output:")
+func RunSample() {
+	fmt.Println("RunSample package output:")
 	fmt.Println("Hello World")
 	fmt.Println("")
 }

@@ -18,7 +18,7 @@ func (u *user) happyBirthday(times int) {
 	}
 }
 
-func Methods() {
+func RunSample() {
 	fmt.Println("Methods package output:")
 	user1 := user{"John", 31}
 	fmt.Println("Name:", user1.name)

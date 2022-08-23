@@ -2,7 +2,7 @@ package _for
 
 import "fmt"
 
-func For() {
+func RunSample() {
 	fmt.Println("For package output:")
 	fmt.Println("Only condition loop from 1 to 5:")
 	i := 1
