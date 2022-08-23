@@ -36,10 +36,13 @@ import (
 	"go-by-example/internal/values"
 	"go-by-example/internal/variables"
 	"go-by-example/internal/variadic"
+	"go-by-example/internal/waitgroups"
 	worker_pool "go-by-example/internal/worker-pool"
 )
 
 func main() {
+	waitgroups.WaitGroups()
+	return
 	worker_pool.WorkerPool()
 	tickers.Tickers()
 	timers.Timers()
