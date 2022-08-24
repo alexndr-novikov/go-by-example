@@ -23,6 +23,7 @@ import (
 	nonBlockingChannels "go-by-example/internal/non-blocking-channels"
 	"go-by-example/internal/pointers"
 	_range "go-by-example/internal/range"
+	"go-by-example/internal/ratelimiting"
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
@@ -41,6 +42,7 @@ import (
 )
 
 func main() {
+	ratelimiting.RunSample()
 	waitgroups.RunSample()
 	workerPool.RunSample()
 	tickers.RunSample()
