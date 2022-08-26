@@ -2,6 +2,7 @@ package main
 
 import (
 	"go-by-example/internal/array"
+	atomic_counters "go-by-example/internal/atomic-counters"
 	channelBuffering "go-by-example/internal/channel-buffering"
 	channelDirections "go-by-example/internal/channel-directions"
 	channelRange "go-by-example/internal/channel-range"
@@ -42,6 +43,7 @@ import (
 )
 
 func main() {
+	atomic_counters.RunSample()
 	ratelimiting.RunSample()
 	waitgroups.RunSample()
 	workerPool.RunSample()
