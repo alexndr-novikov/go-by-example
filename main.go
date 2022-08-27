@@ -21,6 +21,7 @@ import (
 	"go-by-example/internal/interfaces"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/methods"
+	"go-by-example/internal/mutex"
 	nonBlockingChannels "go-by-example/internal/non-blocking-channels"
 	"go-by-example/internal/pointers"
 	_range "go-by-example/internal/range"
@@ -43,6 +44,7 @@ import (
 )
 
 func main() {
+	mutex.RunSample()
 	atomic_counters.RunSample()
 	ratelimiting.RunSample()
 	waitgroups.RunSample()
