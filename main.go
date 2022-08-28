@@ -30,6 +30,7 @@ import (
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
 	"go-by-example/internal/slices"
+	stateful_goroutines "go-by-example/internal/stateful-goroutines"
 	structEmbedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
@@ -44,6 +45,7 @@ import (
 )
 
 func main() {
+	stateful_goroutines.RunSample()
 	mutex.RunSample()
 	atomic_counters.RunSample()
 	ratelimiting.RunSample()
