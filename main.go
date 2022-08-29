@@ -23,6 +23,7 @@ import (
 	"go-by-example/internal/methods"
 	"go-by-example/internal/mutex"
 	nonBlockingChannels "go-by-example/internal/non-blocking-channels"
+	"go-by-example/internal/panicpack"
 	"go-by-example/internal/pointers"
 	_range "go-by-example/internal/range"
 	"go-by-example/internal/ratelimiting"
@@ -90,4 +91,5 @@ func main() {
 	timeouts.RunSample()
 	nonBlockingChannels.RunSample()
 	closingChannels.RunSample()
+	panicpack.RunSample()
 }
