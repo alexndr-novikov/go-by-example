@@ -28,6 +28,7 @@ import (
 	"go-by-example/internal/pointers"
 	_range "go-by-example/internal/range"
 	"go-by-example/internal/ratelimiting"
+	"go-by-example/internal/recovery"
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
@@ -49,6 +50,7 @@ import (
 )
 
 func main() {
+	recovery.RunSample()
 	defet.RunSample()
 	sort_functions.RunSample()
 	sorting.RunSample()
