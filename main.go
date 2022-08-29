@@ -50,7 +50,6 @@ import (
 
 func main() {
 	defet.RunSample()
-	return
 	sort_functions.RunSample()
 	sorting.RunSample()
 	stateful_goroutines.RunSample()
