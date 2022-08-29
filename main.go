@@ -11,6 +11,7 @@ import (
 	closingChannels "go-by-example/internal/closing-channels"
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
+	defet "go-by-example/internal/defer"
 	"go-by-example/internal/errors"
 	_for "go-by-example/internal/for"
 	_func "go-by-example/internal/func"
@@ -48,6 +49,8 @@ import (
 )
 
 func main() {
+	defet.RunSample()
+	return
 	sort_functions.RunSample()
 	sorting.RunSample()
 	stateful_goroutines.RunSample()
