@@ -30,6 +30,7 @@ import (
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
 	"go-by-example/internal/slices"
+	sort_functions "go-by-example/internal/sort-functions"
 	"go-by-example/internal/sorting"
 	stateful_goroutines "go-by-example/internal/stateful-goroutines"
 	structEmbedding "go-by-example/internal/struct-embedding"
@@ -46,6 +47,7 @@ import (
 )
 
 func main() {
+	sort_functions.RunSample()
 	sorting.RunSample()
 	stateful_goroutines.RunSample()
 	mutex.RunSample()
