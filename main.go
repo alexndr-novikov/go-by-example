@@ -36,6 +36,7 @@ import (
 	sort_functions "go-by-example/internal/sort-functions"
 	"go-by-example/internal/sorting"
 	stateful_goroutines "go-by-example/internal/stateful-goroutines"
+	string_functions "go-by-example/internal/string-functions"
 	structEmbedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
@@ -50,6 +51,7 @@ import (
 )
 
 func main() {
+	string_functions.RunSample()
 	recovery.RunSample()
 	defet.RunSample()
 	sort_functions.RunSample()
