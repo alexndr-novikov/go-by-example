@@ -41,6 +41,7 @@ import (
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
 	"go-by-example/internal/tickers"
+	time_package "go-by-example/internal/time-package"
 	"go-by-example/internal/timeouts"
 	"go-by-example/internal/timers"
 	"go-by-example/internal/values"
@@ -51,6 +52,7 @@ import (
 )
 
 func main() {
+	time_package.RunSample()
 	string_functions.RunSample()
 	recovery.RunSample()
 	defet.RunSample()
