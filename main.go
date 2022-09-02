@@ -32,6 +32,7 @@ import (
 	"go-by-example/internal/recursion"
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
+	"go-by-example/internal/sha256"
 	"go-by-example/internal/slices"
 	sort_functions "go-by-example/internal/sort-functions"
 	"go-by-example/internal/sorting"
@@ -52,6 +53,7 @@ import (
 )
 
 func main() {
+	sha256.RunSample()
 	time_package.RunSample()
 	string_functions.RunSample()
 	recovery.RunSample()
