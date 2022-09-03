@@ -24,6 +24,7 @@ import (
 	"go-by-example/internal/methods"
 	"go-by-example/internal/mutex"
 	nonBlockingChannels "go-by-example/internal/non-blocking-channels"
+	number_parsing "go-by-example/internal/number-parsing"
 	"go-by-example/internal/panicpack"
 	"go-by-example/internal/pointers"
 	_range "go-by-example/internal/range"
@@ -53,6 +54,8 @@ import (
 )
 
 func main() {
+	number_parsing.RunSample()
+	return
 	sha256.RunSample()
 	time_package.RunSample()
 	string_functions.RunSample()
