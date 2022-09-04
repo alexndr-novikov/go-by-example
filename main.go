@@ -3,6 +3,7 @@ package main
 import (
 	"go-by-example/internal/array"
 	atomic_counters "go-by-example/internal/atomic-counters"
+	base64_encoding "go-by-example/internal/base64-encoding"
 	channelBuffering "go-by-example/internal/channel-buffering"
 	channelDirections "go-by-example/internal/channel-directions"
 	channelRange "go-by-example/internal/channel-range"
@@ -54,8 +55,8 @@ import (
 )
 
 func main() {
+	base64_encoding.RunSample()
 	number_parsing.RunSample()
-	return
 	sha256.RunSample()
 	time_package.RunSample()
 	string_functions.RunSample()
