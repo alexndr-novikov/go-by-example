@@ -14,6 +14,7 @@ import (
 	"go-by-example/internal/constant"
 	defet "go-by-example/internal/defer"
 	"go-by-example/internal/errors"
+	execing_processes "go-by-example/internal/execing-processes"
 	_for "go-by-example/internal/for"
 	_func "go-by-example/internal/func"
 	multiReturn "go-by-example/internal/func-multiple-return"
@@ -55,6 +56,7 @@ import (
 )
 
 func main() {
+	execing_processes.RunSample()
 	base64_encoding.RunSample()
 	number_parsing.RunSample()
 	sha256.RunSample()
