@@ -40,6 +40,7 @@ import (
 	sort_functions "go-by-example/internal/sort-functions"
 	"go-by-example/internal/sorting"
 	stateful_goroutines "go-by-example/internal/stateful-goroutines"
+	string_formatting "go-by-example/internal/string-formatting"
 	string_functions "go-by-example/internal/string-functions"
 	structEmbedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
@@ -56,7 +57,7 @@ import (
 )
 
 func main() {
-	execing_processes.RunSample()
+	string_formatting.RunSample()
 	base64_encoding.RunSample()
 	number_parsing.RunSample()
 	sha256.RunSample()
@@ -107,5 +108,6 @@ func main() {
 	timeouts.RunSample()
 	nonBlockingChannels.RunSample()
 	closingChannels.RunSample()
+	execing_processes.RunSample()
 	panicpack.RunSample()
 }

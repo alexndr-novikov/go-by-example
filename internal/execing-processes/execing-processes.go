@@ -17,7 +17,7 @@ func RunSample() {
 	env := os.Environ()
 	execErr := syscall.Exec(binary, args, env)
 	if execErr != nil {
-		panic(execErr)
+		fmt.Println("Total panic")
 	}
 	fmt.Println("")
 }
