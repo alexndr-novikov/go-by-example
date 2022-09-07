@@ -13,6 +13,7 @@ import (
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
 	defet "go-by-example/internal/defer"
+	"go-by-example/internal/epoch"
 	"go-by-example/internal/errors"
 	execing_processes "go-by-example/internal/execing-processes"
 	_for "go-by-example/internal/for"
@@ -57,6 +58,7 @@ import (
 )
 
 func main() {
+	epoch.RunSample()
 	string_formatting.RunSample()
 	base64_encoding.RunSample()
 	number_parsing.RunSample()
