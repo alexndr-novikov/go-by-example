@@ -23,6 +23,7 @@ import (
 	"go-by-example/internal/goroutines"
 	"go-by-example/internal/hello"
 	"go-by-example/internal/interfaces"
+	"go-by-example/internal/json"
 	"go-by-example/internal/maps"
 	"go-by-example/internal/methods"
 	"go-by-example/internal/mutex"
@@ -58,6 +59,7 @@ import (
 )
 
 func main() {
+	json.RunSample()
 	epoch.RunSample()
 	string_formatting.RunSample()
 	base64_encoding.RunSample()
