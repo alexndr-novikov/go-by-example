@@ -47,6 +47,7 @@ import (
 	structEmbedding "go-by-example/internal/struct-embedding"
 	"go-by-example/internal/structs"
 	_switch "go-by-example/internal/switch"
+	text_templates "go-by-example/internal/text-templates"
 	"go-by-example/internal/tickers"
 	time_package "go-by-example/internal/time-package"
 	"go-by-example/internal/timeouts"
@@ -59,6 +60,7 @@ import (
 )
 
 func main() {
+	text_templates.RunSample()
 	json.RunSample()
 	epoch.RunSample()
 	string_formatting.RunSample()
