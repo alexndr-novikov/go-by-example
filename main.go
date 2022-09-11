@@ -13,6 +13,7 @@ import (
 	"go-by-example/internal/closures"
 	"go-by-example/internal/constant"
 	defet "go-by-example/internal/defer"
+	"go-by-example/internal/envs"
 	"go-by-example/internal/epoch"
 	"go-by-example/internal/errors"
 	execing_processes "go-by-example/internal/execing-processes"
@@ -60,6 +61,7 @@ import (
 )
 
 func main() {
+	envs.RunSample()
 	text_templates.RunSample()
 	json.RunSample()
 	epoch.RunSample()
