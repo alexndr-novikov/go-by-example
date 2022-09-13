@@ -36,6 +36,7 @@ import (
 	"go-by-example/internal/ratelimiting"
 	"go-by-example/internal/recovery"
 	"go-by-example/internal/recursion"
+	regular_expressions "go-by-example/internal/regular-expressions"
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
 	"go-by-example/internal/sha256"
@@ -61,6 +62,7 @@ import (
 )
 
 func main() {
+	regular_expressions.RunSample()
 	envs.RunSample()
 	text_templates.RunSample()
 	json.RunSample()
