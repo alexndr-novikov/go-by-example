@@ -51,6 +51,7 @@ import (
 	_switch "go-by-example/internal/switch"
 	text_templates "go-by-example/internal/text-templates"
 	"go-by-example/internal/tickers"
+	time_formatting "go-by-example/internal/time-formatting"
 	time_package "go-by-example/internal/time-package"
 	"go-by-example/internal/timeouts"
 	"go-by-example/internal/timers"
@@ -62,6 +63,7 @@ import (
 )
 
 func main() {
+	time_formatting.RunSample()
 	regular_expressions.RunSample()
 	envs.RunSample()
 	text_templates.RunSample()
