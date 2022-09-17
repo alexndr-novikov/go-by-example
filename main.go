@@ -32,6 +32,7 @@ import (
 	number_parsing "go-by-example/internal/number-parsing"
 	"go-by-example/internal/panicpack"
 	"go-by-example/internal/pointers"
+	"go-by-example/internal/random"
 	_range "go-by-example/internal/range"
 	"go-by-example/internal/ratelimiting"
 	"go-by-example/internal/recovery"
@@ -63,6 +64,7 @@ import (
 )
 
 func main() {
+	random.RunSample()
 	time_formatting.RunSample()
 	regular_expressions.RunSample()
 	envs.RunSample()
