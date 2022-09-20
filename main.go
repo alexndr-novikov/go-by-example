@@ -17,6 +17,7 @@ import (
 	"go-by-example/internal/epoch"
 	"go-by-example/internal/errors"
 	execing_processes "go-by-example/internal/execing-processes"
+	"go-by-example/internal/exit"
 	_for "go-by-example/internal/for"
 	_func "go-by-example/internal/func"
 	multiReturn "go-by-example/internal/func-multiple-return"
@@ -124,4 +125,5 @@ func main() {
 	closingChannels.RunSample()
 	execing_processes.RunSample()
 	panicpack.RunSample()
+	exit.RunSample()
 }
