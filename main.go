@@ -42,6 +42,7 @@ import (
 	"go-by-example/internal/runes"
 	selectExamples "go-by-example/internal/select"
 	"go-by-example/internal/sha256"
+	"go-by-example/internal/signals"
 	"go-by-example/internal/slices"
 	sort_functions "go-by-example/internal/sort-functions"
 	"go-by-example/internal/sorting"
@@ -124,6 +125,7 @@ func main() {
 	nonBlockingChannels.RunSample()
 	closingChannels.RunSample()
 	execing_processes.RunSample()
+	signals.RunSample()
 	panicpack.RunSample()
 	exit.RunSample()
 }
